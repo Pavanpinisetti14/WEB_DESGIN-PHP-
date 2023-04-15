@@ -1,0 +1,30 @@
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: box1 5s infinite linear;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation:box2 5s infinite linear;
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation:box3 5s infinite linear;
+}
+@keyframes box1
+{
+    to{
+        left: 0px;
+        background-color: blueviolet;
+    }
+    form{
+        left:300px;
+        background-color: brown;
+    }
+
+}

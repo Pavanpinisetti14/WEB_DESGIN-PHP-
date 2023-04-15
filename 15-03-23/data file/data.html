@@ -1,0 +1,20 @@
+<html>
+
+<form name="login" action="login.php" method="POST" id="login_form" style="display: none;">
+							<div class="login_row">
+								<div class="input_title">Account name</div>
+								<input class="text_input" type="text" name="username" id="input_username" value="">
+							</div>
+							<div class="login_row">
+								<div class="input_title">Password</div>
+								<input class="text_input" type="password" name="password" id="input_password" autocomplete="off"/>
+							</div>
+															<div class="login_row">
+									<div class="input_title" title="If you select this option, we will automatically log you in on future visits for up to 30 days, or until you select "Logout" from the account menu.  This feature is only available to verified accounts.">
+										<input type="checkbox" name="remember_login" id="remember_login" >
+										<label for="remember_login">Remember me on this computer</label>
+									</div>
+								</div>
+							<div style="display: none;"><input type="submit"></div>
+						</form>
+</html>
